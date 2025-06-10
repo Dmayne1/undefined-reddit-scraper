@@ -1,0 +1,23 @@
+{
+  "title": "Reddit Scraper",
+  "type": "object",
+  "properties": {
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "default": {
+        "useApifyProxy": true
+      }
+    },
+    "subreddit": {
+      "title": "Subreddit",
+      "type": "string",
+      "default": "popular"
+    },
+    "maxPosts": {
+      "title": "Max posts",
+      "type": "integer",
+      "default": 100
+    }
+  }
+}
