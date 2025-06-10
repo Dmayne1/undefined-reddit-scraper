@@ -1,0 +1,19 @@
+{
+  "name": "reddit-scraper",
+  "version": "1.0.0",
+  "description": "A comprehensive scraper for reddit to extract posts, profiles, and engagement data",
+  "main": "main.js",
+  "dependencies": {
+    "apify": "^3.1.10",
+    "crawlee": "^3.5.8",
+    "puppeteer": "^21.5.2"
+  },
+  "keywords": [
+    "apify",
+    "scraper",
+    "social-media",
+    "reddit"
+  ],
+  "author": "Apify Gap Finder Agent",
+  "license": "MIT"
+}
